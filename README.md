@@ -2,7 +2,7 @@
 
 ## Table of contents:
 - [Project overview](#project-overview)
-- [Architechture](#architechture)
+- [Architechture of data](#architechture-of-data)
 - [Training details](#training-details)
 - [Results](#results)
 - [How to use](#how-to-use)
@@ -11,7 +11,7 @@
 
 This personal project outlines the development and evaluation of a convolutional neural network (CNN) for CIFAR-10 image classification. Through careful hyperparameter tuning, regularisation, and data augmentation, the model achieved a test accuracy of 89.13% from 30%.
 
-## Architechture: 
+## Architechture of data: 
 The basic architecture consisted of custom "IntermediateBlock" modules. Each block processed an image through multiple convolutional paths (e.g., 3x3 convolutions) and used attention weights generated from the average pooled channel data to combine the results. The output block consisted of a global average pooling layer followed by a fully connected linear layer to produce a 10-class logits output.
 A simple CNN was used to test the training pipeline, achieving a baseline test accuracy of approximately 30–35%.
 
