@@ -1,2 +1,6 @@
 # neural-network-image-classifier
-A custom convolutional neural network (CNN) with multi-scale convolutions, attention, and residual connections, trained on the CIFAR-10 dataset for image classification. Achieved 89% test accuracy through hyperparameter tuning, data augmentation, and regularisation techniques.
+##Project overview:
+
+This project implements a Convolutional Neural Network (CNN) for image classification on the CIFAR-10 dataset.
+The model uses multi-scale convolutions (1×1, 3×3, 5×5), an attention mechanism, and residual connections to improve performance.
+Through careful hyperparameter tuning, regularisation, and data augmentation, the model achieved a test accuracy of 89.13%.
